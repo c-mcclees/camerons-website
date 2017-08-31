@@ -1,0 +1,27 @@
+.primary-light-pink {
+  background: rgba(255, 136, 190, 0.35);
+}
+.primary-light-green {
+  background: rgba(104, 249, 170, 0.35);
+}
+.primary-light-blue {
+  background: rgba(77, 204, 255, 0.35);
+}
+.passions_content {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  .baking_image_container {
+    margin: 10px;
+    flex: auto;
+    min-width: 300px;
+    width: 33%;
+    img {
+      width: 100%;
+    }
+  }
+  .image_description {
+    padding: 5px 0;
+    text-align: center;
+  }
+}
