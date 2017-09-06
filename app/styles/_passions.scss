@@ -1,11 +1,11 @@
 .primary-light-pink {
-  background: rgba(255, 136, 190, 0.35);
+  background: $primary-light-pink;
 }
 .primary-light-green {
-  background: rgba(104, 249, 170, 0.35);
+  background: $primary-light-green;
 }
 .primary-light-blue {
-  background: rgba(77, 204, 255, 0.35);
+  background: $primary-light-blue;
 }
 .passions_content {
   display: flex;
@@ -14,7 +14,7 @@
   .baking_image_container {
     margin: 10px;
     flex: auto;
-    min-width: 300px;
+    min-width: 280px;
     width: 33%;
     img {
       width: 100%;

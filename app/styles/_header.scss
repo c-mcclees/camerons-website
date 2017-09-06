@@ -1,0 +1,21 @@
+nav {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 30px;
+  text-align: center;
+  background: linear-gradient(
+      to bottom,
+      $primary-blue 33.33%, $primary-pink 33.33%,
+      $primary-pink 66.66%, $primary-green 66.66%
+    );
+  .nav-link {
+    margin: 0 auto;
+    background: white;
+    padding: 10px;
+    text-decoration: none;
+    align-self: center;
+    font-weight: bold;
+    color: black;
+  }
+}
